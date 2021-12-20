@@ -11,7 +11,7 @@ public class Burbuja {
             for(int elemento : arreglo)
                 System.out.print(elemento + " ");
 
-            arreglo = ordenamientoBurbuja(arreglo);
+            ordenamientoBurbuja(arreglo);
 
             System.out.println("\nArreglo ordenado:");
             for(int elemento : arreglo)
@@ -21,7 +21,7 @@ public class Burbuja {
         }
     }
 
-    public static int[] ordenamientoBurbuja(int[] arreglo) {
+    public static void ordenamientoBurbuja(int[] arreglo) {
         int n = arreglo.length;
         boolean ordenado = true;
         int i = 0;
@@ -39,7 +39,5 @@ public class Burbuja {
                 }           
             }
         }
-
-        return arreglo;
     }
 }
