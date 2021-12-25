@@ -13,10 +13,18 @@
 
 | Tipo | Método | Descripción
 | ----------- | ----------- | ----------- |
+| StringBuilder | append(var value) | Agrega la cadena que representa `value` al final del StringBuilder. |
 | int | capacity() | Devuelve la capacidad del StringBuilder. |
-| char | charAt(int index) | Devuelve el carácter que se encuentra en el índice `index`. |
+| char | charAt(int index) | Devuelve el carácter que se encuentra en la posición `index`. |
+| StringBuilder | delete(int start, int end) | Elimina los caracteres entre los índices `start` y `end`. |
+| StringBuilder | deleteCharAt(int index) | Elimina el carácter que se encuentra en la posición `index`. |
+| int | indexOf(String str) | Devuelve el índice de la primera aparición de la cadena `str`. |
+| StringBuilder | insert(int offset, var value) | Inserta la cadena que representa `value` en la posición `offset`. |
+| int | lastIndexOf(String str) | Devuelve el índice de la última aparición de la cadena `str`. |
 | int | length() | Devuelve el número de caracteres del StringBuilder. |
+| StringBuilder | replace(int start, int end, String str) | Reemplaza los caracteres que se encuentran entre los índices `start` y `end`, por la cadena `str`. |
 | StringBuilder | reverse() | Invierte el orden de los caracteres del StringBuilder. |
+| void | setCharAt(int index, char ch) | Reemplaza el carácter en la posición `index`, por el carácter `ch`. |
 | String | substring(int start, int end) | Devuelve la cadena comprendida entre los índices `start` y `end`. |
 | String | toString() | Devuelve una cadena que representa los caracteres del StringBuilder. |
 
