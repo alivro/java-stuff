@@ -8,7 +8,7 @@
 Código:
 ``` java
     String entero = String.format("%d", 11037);  
-    String flotante = String.format("%f %f", 3.141592653589793, 0.00002718281828459045);
+    String flotante = String.format("%f %.10f", 3.141592653589793, 0.00002718281828459045);
     String notacionCientificaComputarizada = String.format("%e %E", 3.141592653589793, 0.00002718281828459045);
     String notacionCientificaGeneral = String.format("%g %G", 3.141592653589793, 0.00002718281828459045);
 
